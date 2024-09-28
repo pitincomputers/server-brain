@@ -1,0 +1,26 @@
+{
+  "name": "service",
+  "version": "0.0.1",
+  "description": "API server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-server": "node source/pos-main-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gintheqe/service.git"
+  },
+  "keywords": [
+    "freepos"
+  ],
+  "author": "Gin Yoshidome",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gintheqe/service/issues"
+  },
+  "homepage": "https://github.com/gintheqe/service#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
